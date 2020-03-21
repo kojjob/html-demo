@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header {
+  font-size: 2.5rem;
+  /* font-weight: 500; */
+  color: #555555;
+  text-align: center;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+.posts {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem; */
+  display: flex;
+  flex-direction: column;
+}
+.subheading {
+  color: #777777;
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+.story {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  /* text-align: justify; */
+}
+.lovely {
+  width: 100%;
+ margin: 1rem 0;
+}
